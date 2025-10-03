@@ -1,0 +1,27 @@
+<div class="flex-column">
+    <div class="card mb-1">
+        <div class="card-header entete">Agenda des événements</div>
+        <div style="display: none; padding-bottom:10px" id="agendaContainer">
+            <!-- Prochain événement -->
+            <div class="card mb-2" id="prochainEvenement">
+                <div class="card-header entete">Prochain événement</div>
+                <div style="padding:10px">
+                    <div><strong>Nom :</strong> <span id="nomProchain"></span></div>
+                    <div><strong>Date :</strong> <span id="dateProchain"></span></div>
+                    <div><strong>Description :</strong> <span id="descriptionProchain"></span></div>
+                    <div><a id="lienProchain" href="#" target="_blank">Plus d'infos</a></div>
+                </div>
+            </div>
+
+            <!-- Agenda complet -->
+            <div class="card" id="agendaComplet">
+                <div class="card-header entete">Agenda complet</div>
+                <div style="padding:10px" id="listeEvenements">
+                    <!-- Les événements seront injectés ici via JS/SQL -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

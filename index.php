@@ -14,6 +14,7 @@ $lesClassements = json_encode(Classement::getAll());
 $prochaineEdition = json_encode(Epreuve::getProchaineEpreuve());
 
 
+
 // transmission des données à l'interface
 $head = <<<HTML
     <script>
